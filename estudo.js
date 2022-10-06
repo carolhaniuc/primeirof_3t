@@ -11,8 +11,22 @@ function escreva(){
     document.write(tabuada + " x 8 = " + (tabuada*8) + "<br>");
     document.write(tabuada + " x 9 = " + (tabuada*9) + "<br>");
     document.write(tabuada + " x 10 = " + (tabuada*10) + "<br>");
+}  
     
     
-    
+let lista = ["Jesus","Spessato","Jorge","Duarte","Waldete","Raquel"]
+function mostra(){
+    document.write(lista.legin + "<br>")
+    for(let 1 = 0; 1 < lista.length; 1++){
+        document.write(lista[1] + "<br>")
+    }
 }
+
+function mostratabuada(){
+    for(let 1 = 1; 1<= 10; 1++){
+        document.write("o valor do 1" + 1 + "<br>")
+    }
+}
+
+
 
