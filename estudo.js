@@ -1,3 +1,4 @@
+
 let tabuada = 2;
 function escreva(){
     document.write("tabuada do " + tabuada + "<br>")
@@ -17,16 +18,27 @@ function escreva(){
 let lista = ["Jesus","Spessato","Jorge","Duarte","Waldete","Raquel"]
 function mostra(){
     document.write(lista.legin + "<br>")
-    for(let 1 = 0; 1 < lista.length; 1++){
+    for(let i = 0; 1 < lista.length; 1++){
         document.write(lista[1] + "<br>")
     }
 }
 
 function mostratabuada(){
-    for(let 1 = 1; 1<= 10; 1++){
-        document.write("o valor do 1" + 1 + "<br>")
+    for(let i = 1; i<= 10; i++){
+        document.write("o valor do i" + i + "<br>");
     }
 }
-
+function total(){
+    let v = document.getElementById("valor").value;
+    let j = document.getElementById("juros").value;
+    let t = document.getElementById("meses").value;
+    let r = 0;
+    for(let i =1; i <=t; i++){
+        r = v * (1 + (j/100));
+        document.write("mês " + i + "valor: " + r + "<br>");
+        v = r;
+    }
+    document.write("Resultado: " + r);
+}
 
 
