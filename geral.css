@@ -1,34 +1,33 @@
 
-.calculadora {
-    background: pink;
-    width: 200px;
-    padding:  10px;
-    border-radius: 10px;
-    text-align: center;
-}
-.calculadora input  {
-    background: blue;
-    color: seagreen;
-    padding: 5px;
-    border-radius: 5px;
-}
-#spTotal {
-    background: black;
-    color: aqua;
-    padding: 5px;
-    border-radius: 10px;
-    margin-top: 10px;
-}
-.calculadora button{
-    background: purple;
-    color: white;
-    padding: 8px;
-    border-radius: 8px;
-    margin-top: 10px;
-}
-.calculadora button:hover{
-    background: brown;
-    color: beige;
-    cursor: pointer;
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1f</title>
+   <script src="estudo.js"></script>
+   <link rel="stylesheet" href="geral.css">
+</head>
+<body>
+    <input type="checkbox" id="input-calcF">
+    <div class="calculadora">
+        <label for="input-calcF"><h4>financeira</h4></label>
+        <div class="calcF">
+    <div>
+        <span id="total">Total: 0,00</span>
+        <div>
+   valor: <input id="valor" type="text"><br>
+   Juros mensais: <input id="juros" type="text"><br>
+   Nr. meses <input id="meses"  type="text"><br>
+   <button onclick="total()">enviar</button>
+   <div id="spMes">
+    <span id="total">Meses</span>
+   </div>
 
-}
+</div>
+
+
+</body>
+</html>
+
